@@ -1,5 +1,5 @@
 
-
+#security groups
 resource "aws_security_group" "allow_rds" {
   name        = "allow_rds"
   description = "MySQL access"
