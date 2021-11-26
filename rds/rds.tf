@@ -10,5 +10,4 @@ resource "aws_db_instance" "default" {
   skip_final_snapshot   = true
   auto_minor_version_upgrade = true
   vpc_security_group_ids = [aws_security_group.allow_rds.id]
-  
-} 
+  } 
